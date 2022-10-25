@@ -1,8 +1,8 @@
-function greet() {
-    console.log('Hello World');
+function greet(name) {
+    console.log('Hello ' + name);
 }
 
-greet()
+greet('elozinoLopez');
 
 
 // let selectedColors = ['red', 'yellow', 'blue'];
