@@ -1,8 +1,15 @@
-function greet(name) {
-    console.log('Hello ' + name);
+function greet(name, lastName) {
+    console.log('Hello, ' + name + ' ' + lastName);
 }
 
-greet('elozinoLopez');
+greet('ElozinoLopez', 'ASAIJE');
+
+
+// function greet(name) {
+//     console.log('Hello ' + name);
+// }
+
+// greet('elozinoLopez');
 
 
 // let selectedColors = ['red', 'yellow', 'blue'];
