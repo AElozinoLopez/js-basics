@@ -1,8 +1,15 @@
-let selectedColors = ['red', 'yellow', 'blue'];
-console.log(selectedColors);
-console.log(selectedColors[1]);
-selectedColors [1] = 30;
-console.log(selectedColors[1]);
+function greet() {
+    console.log('Hello World');
+}
+
+greet()
+
+
+// let selectedColors = ['red', 'yellow', 'blue'];
+// console.log(selectedColors);
+// console.log(selectedColors[1]);
+// selectedColors [1] = 30;
+// console.log(selectedColors[1]);
 
 
 
