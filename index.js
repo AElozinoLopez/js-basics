@@ -1,8 +1,18 @@
-function greet(name, lastName) {
-    console.log('Hello, ' + name + ' ' + lastName);
+//Funtion to calculate the square of a number
+
+function square(number) {
+    return number * number
 }
 
-greet('ElozinoLopez', 'ASAIJE');
+let number = square(6);
+console.log (number);
+
+
+// function greet(name, lastName) {
+//     console.log('Hello, ' + name + ' ' + lastName);
+// }
+
+// greet('ElozinoLopez', 'ASAIJE');
 
 
 // function greet(name) {
