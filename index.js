@@ -1,11 +1,17 @@
+// JS program to compute the area of a circle where Area = Pi * R *R
+const Pi = 3.132;
+let R = 14;
+let areaOfCircle = Pi * R * R;
+console.log(areaOfCircle);
+
 // Swapping Variable Exercise
-let a = 'red';
-let b = 'blue';
-console.log(a, b);
-let c = a;
-a = b;
-b = c;
-console.log(a, b);
+// let a = 'red';
+// let b = 'blue';
+// console.log(a, b);
+// let c = a;
+// a = b;
+// b = c;
+// console.log(a, b);
 
 // Logical Operators
 // let highIncome = true;
