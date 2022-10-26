@@ -1,11 +1,17 @@
 //Funtion to calculate the square of a number
 
-function square(number) {
-    return number * number
-}
+// function square(number) {
+//     return number * number
+// }
 
-let number = square(6);
-console.log (number);
+// let number = square(6);
+// console.log (number);
+
+// Function to calculate the sum of two numbers
+function sumOfTwoNumbers (num1, num2) {
+    console.log(num1 + num2)
+}
+sumOfTwoNumbers(7, 7);
 
 
 // function greet(name, lastName) {
