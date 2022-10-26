@@ -2,7 +2,7 @@
 const Pi = 3.132;
 let R = 14;
 let areaOfCircle = Pi * R * R;
-console.log(areaOfCircle);
+console.log('Area of circle = ' + areaOfCircle);
 
 // Swapping Variable Exercise
 // let a = 'red';
