@@ -2,8 +2,9 @@
 let a = 'red';
 let b = 'blue';
 console.log(a, b);
-b = a;
-a = 'blue';
+let c = a;
+a = b;
+b = c;
 console.log(a, b);
 
 // Logical Operators
