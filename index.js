@@ -1,7 +1,17 @@
+// Logical Operators
+let highIncome = true;
+let goodCreditScore = false;
+let isEligibleForLoan = highIncome && goodCreditScore;
+let isUnderProbation = highIncome || goodCreditScore;
+
+console.log(isEligibleForLoan);
+console.log(isUnderProbation);
+
+
 // Ternary Operator
-let point = 110;
-let customerRating = point > 100 ? 'Pass' : 'Fail';
-console.log(customerRating);
+// let point = 90;
+// let customerRating = point > 100 ? 'Pass' : 'Fail';
+// console.log(customerRating);
 
 
 // Arithmetic Operators
