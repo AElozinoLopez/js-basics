@@ -1,3 +1,13 @@
+// Arithmetic Operators
+let x = 70;
+let y = 50;
+
+console.log (x - y);
+console.log (x + y);
+console.log (x * y);
+console.log (x / y);
+console.log (x % y);
+
 //Funtion to calculate the square of a number
 
 // function square(number) {
@@ -8,10 +18,10 @@
 // console.log (number);
 
 // Function to calculate the sum of two numbers
-function sumOfTwoNumbers (num1, num2) {
-    console.log(num1 + num2)
-}
-sumOfTwoNumbers(7, 7);
+// function sumOfTwoNumbers (num1, num2) {
+//     console.log(num1 + num2)
+// }
+// sumOfTwoNumbers(7, 7);
 
 
 // function greet(name, lastName) {
