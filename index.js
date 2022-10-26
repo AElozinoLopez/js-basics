@@ -1,8 +1,19 @@
+// Program to calculate Simple Interest SI = P * R * T  / 100
+let principal = 500000;
+let rate = 3;
+let time = 2
+let simpleInterest = (principal * rate * time) / 100;
+
+console.log('Simple Interest = ' + simpleInterest);
+
+
+
 // JS program to compute the area of a circle where Area = Pi * R *R
-const PI = 3.132;
-let Radius = 14;
-let areaOfCircle = PI * Radius**2;
-console.log('Area of circle = ' + areaOfCircle);
+// const PI = 3.132;
+// let Radius = 14;
+// let areaOfCircle = PI * Radius**2;
+// console.log('Area of circle = ' + areaOfCircle);
+
 
 // Swapping Variable Exercise
 // let a = 'red';
@@ -12,6 +23,7 @@ console.log('Area of circle = ' + areaOfCircle);
 // a = b;
 // b = c;
 // console.log(a, b);
+
 
 // Logical Operators
 // let highIncome = true;
