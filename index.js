@@ -1,3 +1,9 @@
+// Ternary Operator
+let point = 110;
+let customerRating = point > 100 ? 'Pass' : 'Fail';
+console.log(customerRating);
+
+
 // Arithmetic Operators
 // let x = 70;
 // let y = 50;
@@ -10,22 +16,24 @@
 // console.log (x ** y); 
 
 // Increment and Decrement Operators
-let x = 5;
-console.log(++x);
-console.log(x++);
-console.log(x);
-console.log(--x);
-console.log(x--);
-console.log(x);
-console.log(x +=45);
-console.log(x -=10);
-console.log(x /=4);
-console.log(x > 8);
-console.log(x < 8);
-console.log(x <= 8);
-console.log(x >= 8);
-console.log(x === 8);
-console.log(x !== 8);
+// let x = 5;
+// console.log(++x);
+// console.log(x++);
+// console.log(x);
+// console.log(--x);
+// console.log(x--);
+// console.log(x);
+// console.log(x +=45);
+// console.log(x -=10);
+// console.log(x /=4);
+// console.log(x > 8);
+// console.log(x < 8);
+// console.log(x <= 8);
+// console.log(x >= 8);
+// console.log(x === 8);
+// console.log(x !== 8);
+
+
 //Funtion to calculate the square of a number
 
 // function square(number) {
