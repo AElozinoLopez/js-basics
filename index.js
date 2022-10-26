@@ -1,13 +1,19 @@
 // Arithmetic Operators
-let x = 70;
-let y = 50;
+// let x = 70;
+// let y = 50;
 
-console.log (x - y);
-console.log (x + y);
-console.log (x * y);
-console.log (x / y);
-console.log (x % y);
-console.log (x ** y); 
+// console.log (x - y);
+// console.log (x + y);
+// console.log (x * y);
+// console.log (x / y);
+// console.log (x % y);
+// console.log (x ** y); 
+
+// Increment and Decrement Operators
+let x = 5;
+console.log(++x);
+console.log(x++);
+console.log(x);
 
 //Funtion to calculate the square of a number
 
