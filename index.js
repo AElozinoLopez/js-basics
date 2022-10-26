@@ -1,11 +1,19 @@
-// Logical Operators
-let highIncome = true;
-let goodCreditScore = false;
-let isEligibleForLoan = highIncome && goodCreditScore;
-let isUnderProbation = highIncome || goodCreditScore;
+// Swapping Variable Exercise
+let a = 'red';
+let b = 'blue';
+console.log(a, b);
+b = a;
+a = 'blue';
+console.log(a, b);
 
-console.log(isEligibleForLoan);
-console.log(isUnderProbation);
+// Logical Operators
+// let highIncome = true;
+// let goodCreditScore = false;
+// let isEligibleForLoan = highIncome && goodCreditScore;
+// let isUnderProbation = highIncome || goodCreditScore;
+
+// console.log(isEligibleForLoan);
+// console.log(isUnderProbation);
 
 
 // Ternary Operator
