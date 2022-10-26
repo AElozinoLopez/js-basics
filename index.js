@@ -7,6 +7,7 @@ console.log (x + y);
 console.log (x * y);
 console.log (x / y);
 console.log (x % y);
+console.log (x ** y); 
 
 //Funtion to calculate the square of a number
 
