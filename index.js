@@ -14,7 +14,12 @@ let x = 5;
 console.log(++x);
 console.log(x++);
 console.log(x);
-
+console.log(--x);
+console.log(x--);
+console.log(x);
+console.log(x +=45);
+console.log(x -=10);
+console.log(x /=4);
 //Funtion to calculate the square of a number
 
 // function square(number) {
