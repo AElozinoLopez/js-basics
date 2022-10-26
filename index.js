@@ -1,10 +1,23 @@
-// Program to calculate Simple Interest SI = P * R * T  / 100
-let principal = 500000;
-let rate = 3;
-let time = 2
-let simpleInterest = (principal * rate * time) / 100;
+// Program to greet visitors depending on hour of the day
+let hour = 19;
+if (hour >= 1 && hour < 12) {
+    console.log('Good morning')
+}
+else if (hour >= 12 && hour < 18) {
+    console.log ('Good afternoon')
+}
+else {
+    console.log('Good evening')
+}
 
-console.log('Simple Interest = ' + simpleInterest);
+
+// Program to calculate Simple Interest SI = P * R * T  / 100
+// let principal = 500000;
+// let rate = 3;
+// let time = 1;
+// let simpleInterest = (principal * rate * time) / 100;
+
+// console.log('Simple Interest = ' + simpleInterest);
 
 
 
