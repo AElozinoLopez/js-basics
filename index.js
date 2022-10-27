@@ -1,10 +1,29 @@
-// EXERCISE 2 - Function to determine if an image is landscape or portrait
-function isLandscape (width, height) {
-    return width > height ? true : false;
-} 
+//EXERCISE 3 - Program to print multiples of 3, 5, and 3 and 5
 
-let result = isLandscape(74, 52);
-console.log(result);
+function fizzbuzz () {
+    for (let i = 1; i <= 100; i++) {
+        if (i % 3 === 0) {
+            console.log('Fizz');
+        } else if (i % 5 === 0) {
+            console.log ('Buzz');
+        } else if (i % 3 === 0 && i % 5 === 0) {
+            console.log ('FizzBuzz');
+        } else {
+            console.log (i)
+        }
+    }
+}
+
+console.log (fizzbuzz());
+
+
+// EXERCISE 2 - Function to determine if an image is landscape or portrait
+// function isLandscape (width, height) {
+//     return width > height ? true : false;
+// } 
+
+// let result = isLandscape(74, 52);
+// console.log(result);
 
 
 
