@@ -1,19 +1,26 @@
-// Switch...case statement
-let role;
-
-switch (role) {
-    case 'guest' :
-        console.log('Guest User');
-        break;
-    case 'moderator' :
-        console.log('Moderator User');
-        break;
-    case 'admin' :
-        console.log('Admin User');
-        break;
-    default: 
-        console.log('Regular User')
+// For Loop
+for (let i = 0; i < 5; i++) {
+    console.log('Hello World')
 }
+
+
+
+// Switch...case statement
+// let role;
+
+// switch (role) {
+//     case 'guest' :
+//         console.log('Guest User');
+//         break;
+//     case 'moderator' :
+//         console.log('Moderator User');
+//         break;
+//     case 'admin' :
+//         console.log('Admin User');
+//         break;
+//     default: 
+//         console.log('Regular User')
+// }
 
 
 
