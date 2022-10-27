@@ -1,3 +1,17 @@
+//EXERCISE - Write a function that returns the maximum of two numbers.
+function maximumOfTwoNumbers (num1, num2) {
+    if (num1 > num2) {
+        return num1;
+    } else {
+        return num2;
+    }
+}
+
+let result = maximumOfTwoNumbers(4, 9)
+console.log(result)
+
+
+
 // Do...While loop
 // Program To print multiple times
 // let i = 0;
@@ -9,14 +23,14 @@
 
 // program to print numbers between 0 and 10 
 
-let i = 0;
+// let i = 0;
 
-do {
-    if (i % 2 !== 0) {
-        console.log(i)
-    }
-    i++
-} while (i <= 10)
+// do {
+//     if (i % 2 !== 0) {
+//         console.log(i)
+//     }
+//     i++;
+// } while (i <= 10)
 
 
 
