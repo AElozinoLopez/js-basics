@@ -1,13 +1,25 @@
 //EXERCISE - Write a function that returns the maximum of two numbers.
+// function maximumOfTwoNumbers (num1, num2) {
+//     if (num1 > num2) {
+//         return num1;
+//     } else {
+//         return num2;
+//     }
+// }
+
+// let result = maximumOfTwoNumbers(11, 9)
+// console.log(result)
+
+//EXERCISE - Write a function that returns the maximum of two numbers. Modified
 function maximumOfTwoNumbers (num1, num2) {
     if (num1 > num2) {
         return num1;
-    } else {
+    }                            // The else statement was removed because we are already using return
         return num2;
-    }
+    
 }
 
-let result = maximumOfTwoNumbers(4, 9)
+let result = maximumOfTwoNumbers(11, 29)
 console.log(result)
 
 
