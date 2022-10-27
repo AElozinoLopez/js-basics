@@ -11,16 +11,27 @@
 // console.log(result)
 
 //EXERCISE - Write a function that returns the maximum of two numbers. Modified
-function maximumOfTwoNumbers (num1, num2) {
-    if (num1 > num2) {
-        return num1;
-    }                            // The else statement was removed because we are already using return
-        return num2;
+// function maximumOfTwoNumbers (num1, num2) {
+//     if (num1 > num2) {
+//         return num1;
+//     }                            // The else statement was removed because we are already using return
+//         return num2;
     
+// }
+
+// let result = maximumOfTwoNumbers(11, 29)
+// console.log(result)
+
+
+//EXERCISE - Write a function that returns the maximum of two numbers. Modified using tenary operator
+function maximumOfTwoNumbers (num1, num2) {
+    const result = num1 > num2 ? num1 : num2;
+    return result;    
 }
 
-let result = maximumOfTwoNumbers(11, 29)
+let result = maximumOfTwoNumbers(41, 29)
 console.log(result)
+
 
 
 
