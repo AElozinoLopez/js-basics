@@ -1,9 +1,12 @@
-// For Loop
+// For Loop to print out "Hello World" a number of times
 for (let i = 0; i < 1050; i++) {
     console.log('Hello World')
 }
 
-
+//For Loop to display odd numbers between 0 and 10
+for (let i = 0; i % 2 > 0; i++) {
+    console.log('The odd numbers are ' + );
+}
 
 // Switch...case statement
 // let role;
