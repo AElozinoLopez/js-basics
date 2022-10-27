@@ -1,8 +1,18 @@
-//While loop  Program to print Hello World 5 times
-let i = 0;
+//While loop  
+// Program to print Hello World 5 times
+// let i = 0;
 
-while (i < 5) {
-    console.log('Hello World');
+// while (i < 5) {
+//     console.log('Hello World');
+//     i++
+// }
+
+// Program to print odd numbers between 0 and 10
+let i = 0;
+while (i <= 10) {
+    if (i % 2 !== 0) {
+        console.log(i)
+    }
     i++
 }
 
