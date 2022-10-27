@@ -1,10 +1,24 @@
 // Do...While loop
+// Program To print multiple times
+// let i = 0;
+
+// do {
+//     console.log('Hello World')
+//     i++
+// } while (i < 5)
+
+// program to print numbers between 0 and 10 
+
 let i = 0;
 
 do {
-    console.log('Hello World')
+    if (i % 2 !== 0) {
+        console.log(i)
+    }
     i++
-} while (i < 5)
+} while (i <= 10)
+
+
 
 
 //While loop  
