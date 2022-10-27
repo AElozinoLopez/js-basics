@@ -1,3 +1,13 @@
+// EXERCISE 2 - Function to determine if an image is landscape or portrait
+function isLandscape (width, height) {
+    return width > height ? true : false;
+} 
+
+let result = isLandscape(74, 52);
+console.log(result);
+
+
+
 //EXERCISE - Write a function that returns the maximum of two numbers.
 // function maximumOfTwoNumbers (num1, num2) {
 //     if (num1 > num2) {
@@ -34,12 +44,12 @@
 
 
 //EXERCISE - Write a function that returns the maximum of two numbers. Minified further using ternary operator
-function maximumOfTwoNumbers (num1, num2) {
-    return num1 > num2 ? num1 : num2;        
-}
+// function maximumOfTwoNumbers (num1, num2) {
+//     return (num1 > num2) ? num1 : num2;        
+// }
 
-let result = maximumOfTwoNumbers(41, 29)
-console.log(result)
+// let result = maximumOfTwoNumbers(41, 29)
+// console.log(result)
 
 
 
