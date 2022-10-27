@@ -1,5 +1,5 @@
 // Switch...case statement
-let role = 'admin';
+let role;
 
 switch (role) {
     case 'guest' :
