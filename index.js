@@ -23,10 +23,19 @@
 // console.log(result)
 
 
-//EXERCISE - Write a function that returns the maximum of two numbers. Modified using tenary operator
+//EXERCISE - Write a function that returns the maximum of two numbers. Modified using ternary operator
+// function maximumOfTwoNumbers (num1, num2) {
+//     const result = num1 > num2 ? num1 : num2;
+//     return result;    
+// }
+
+// let result = maximumOfTwoNumbers(41, 29)
+// console.log(result)
+
+
+//EXERCISE - Write a function that returns the maximum of two numbers. Minified further using ternary operator
 function maximumOfTwoNumbers (num1, num2) {
-    const result = num1 > num2 ? num1 : num2;
-    return result;    
+    return num1 > num2 ? num1 : num2;        
 }
 
 let result = maximumOfTwoNumbers(41, 29)
