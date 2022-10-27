@@ -11,6 +11,8 @@ switch (role) {
     case 'admin' :
         console.log('An Admin');
         break;
+    default: 
+        console.log('Regular User')
 }
 
 
