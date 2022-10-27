@@ -1,15 +1,15 @@
 // Switch...case statement
-let role;
+let role = 'admin';
 
 switch (role) {
     case 'guest' :
-        console.log('A Guest');
+        console.log('Guest User');
         break;
     case 'moderator' :
-        console.log('A Moderator');
+        console.log('Moderator User');
         break;
     case 'admin' :
-        console.log('An Admin');
+        console.log('Admin User');
         break;
     default: 
         console.log('Regular User')
