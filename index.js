@@ -25,10 +25,10 @@ function checkSpeed(speed) {
     const pointPerKm = 5;
     if (speed < speedLimit + pointPerKm) {
         console.log("Ok");
-    } 
         return;
+    }         
         const points = Math.floor ((speed - speedLimit) / pointPerKm)
-        if (points >= 12) ? 'License Suspended' : 'Points';
+        return (points >= 12) ? 'License Suspended' : points;
 }
 
 console.log(checkSpeed(180));
