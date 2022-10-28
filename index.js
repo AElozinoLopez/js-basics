@@ -1,27 +1,31 @@
 // EXERCISE 4 - Function to show stars
-// function showStars (rows) {
-//     for (i = 1; i <= rows; i++) {
-//         for (j = 1; j <= i; j++) {
-//             console.log('*');
-//         }
+function showStars (rows) {
+    let char = '';
+    for ( i = 1; i <= rows; i++) {
         
-        
+        for ( j = 0; j < i; j++) {
+            char = char + "*"            
+        }
+        char = char + "\n"        
+    }
+
+    console.log(char)
+}
+
+showStars(4);
+
+
+// EXERCISE 4 - Function to show stars  (Another method)
+// function showStars (number) {
+//     let str = '*';
+//     let i = 1;
+//     while (number >= i) {
+//         console.log(str.repeat(i))
+//         i++
 //     }
 // }
 
-// console.log(showStars(4));
-
-// EXERCISE 4 - Function to show stars  (Another method)
-function showStars (number) {
-    let str = '*';
-    let i = 1;
-    while (number >= i) {
-        console.log(str.repeat(i))
-        i++
-    }
-}
-
-showStars(3);
+// showStars(3);
 
 
 
