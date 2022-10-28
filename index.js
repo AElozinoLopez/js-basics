@@ -1,10 +1,12 @@
 // EXERCISE 4 - Function to show stars
 function showStars (rows) {
-    for (i = 1; i <= 20; i++) {
-        console.log(*);
-        return;
+    for (i = 1; i <= rows; i++) {
+        console.log('*');
+        // return;
     }
 }
+
+console.log(showStars(4));
 
 
 
