@@ -6,11 +6,17 @@ function checkSpeed(speed) {
         console.log("Ok");
     } 
     else {
-
+        const points = Math.floor ((speed - speedLimit) / pointPerKm)
+        if (points >= 12) {
+            console.log("License Suspended")
+        }
+        else {
+            console.log('Points ', points);
+        }
     }
 }
 
-console.log(checkSpeed(69));
+console.log(checkSpeed(180));
 
 
 //EXERCISE 3 - Program to print multiples of 3, 5, and 3 and 5
