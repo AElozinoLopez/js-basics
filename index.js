@@ -1,8 +1,12 @@
 // EXERCISE 3 Funtion to check the speed limit of drivers
 function checkSpeed(speed) {
     const speedLimit = 70;
-    if (speed < speedLimit) {
+    const pointPerKm = 5;
+    if (speed < speedLimit + pointPerKm) {
         console.log("Ok");
+    } 
+    else {
+
     }
 }
 
