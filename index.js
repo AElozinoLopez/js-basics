@@ -1,20 +1,31 @@
-//EXERCISE 3 - Program to print multiples of 3, 5, and 3 and 5
-
-function fizzbuzz () {
-    for (let i = 1; i <= 100; i++) {
-        if (i % 3 === 0 && i % 5 === 0) {
-            console.log('FizzBuzz');
-        } else if (i % 5 === 0) {
-            console.log ('Buzz');
-        } else if (i % 3 === 0) {
-            console.log ('Fizz');
-        } else {
-            console.log (i)
-        }
+// EXERCISE 3 Funtion to check the speed limit of drivers
+funtion checkSpeed(speed) {
+    const speedLimit = 70;
+    if (speed < speedLimit) {
+        console.log("Ok");
     }
 }
 
-console.log (fizzbuzz());
+console.log(checkSpeed(69));
+
+
+//EXERCISE 3 - Program to print multiples of 3, 5, and 3 and 5
+
+// function fizzbuzz () {
+//     for (let i = 1; i <= 100; i++) {
+//         if (i % 3 === 0 && i % 5 === 0) {
+//             console.log('FizzBuzz');
+//         } else if (i % 5 === 0) {
+//             console.log ('Buzz');
+//         } else if (i % 3 === 0) {
+//             console.log ('Fizz');
+//         } else {
+//             console.log (i)
+//         }
+//     }
+// }
+
+// console.log (fizzbuzz());
 
 
 // EXERCISE 2 - Function to determine if an image is landscape or portrait
