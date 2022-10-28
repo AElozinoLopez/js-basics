@@ -1,19 +1,34 @@
 // EXERCISE 3 Funtion to check the speed limit of drivers
+// function checkSpeed(speed) {
+//     const speedLimit = 70;
+//     const pointPerKm = 5;
+//     if (speed < speedLimit + pointPerKm) {
+//         console.log("Ok");
+//     } 
+//     else {
+//         const points = Math.floor ((speed - speedLimit) / pointPerKm)
+//         if (points >= 12) {
+//             console.log("License Suspended")
+//         }
+//         else {
+//             console.log('Points ', points);
+//         }
+//     }
+// }
+
+// console.log(checkSpeed(180));
+
+
+// EXERCISE 3 Funtion to check the speed limit of drivers
 function checkSpeed(speed) {
     const speedLimit = 70;
     const pointPerKm = 5;
     if (speed < speedLimit + pointPerKm) {
         console.log("Ok");
     } 
-    else {
+        return;
         const points = Math.floor ((speed - speedLimit) / pointPerKm)
-        if (points >= 12) {
-            console.log("License Suspended")
-        }
-        else {
-            console.log('Points ', points);
-        }
-    }
+        if (points >= 12) ? 'License Suspended' : 'Points';
 }
 
 console.log(checkSpeed(180));
