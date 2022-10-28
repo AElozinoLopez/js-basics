@@ -1,3 +1,13 @@
+// EXERCISE 4 - Function to show stars
+function showStars (rows) {
+    for (i = 1; i <= 20; i++) {
+        console.log(*);
+        return;
+    }
+}
+
+
+
 // EXERCISE 3 Funtion to check the speed limit of drivers
 // function checkSpeed(speed) {
 //     const speedLimit = 70;
@@ -20,18 +30,18 @@
 
 
 // EXERCISE 3 Funtion to check the speed limit of drivers
-function checkSpeed(speed) {
-    const speedLimit = 70;
-    const pointPerKm = 5;
-    if (speed < speedLimit + pointPerKm) {
-        console.log("Ok");
-        return;
-    }         
-        const points = Math.floor ((speed - speedLimit) / pointPerKm)
-        return (points >= 12) ? 'License Suspended' : points;
-}
+// function checkSpeed(speed) {
+//     const speedLimit = 70;
+//     const pointPerKm = 5;
+//     if (speed < speedLimit + pointPerKm) {
+//         console.log("Ok");
+//         return;
+//     }         
+//         const points = Math.floor ((speed - speedLimit) / pointPerKm)
+//         return (points >= 12) ? 'License Suspended' : points;
+// }
 
-console.log(checkSpeed(180));
+// console.log(checkSpeed(180));
 
 
 //EXERCISE 3 - Program to print multiples of 3, 5, and 3 and 5
