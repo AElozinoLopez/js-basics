@@ -1,20 +1,32 @@
-// EXERCISE - String Properties
-const movie = {
-    title: 'a',
-    releaseYear: 2018,
-    rating : 10,
-    director : 'b'
-}
-
-function showProperties (obj) {
-    for (let index in obj) {
-        if (typeof obj[index] === 'string') {
-            console.log (index);
+// EXERCISES: Sum of multiples of 3 and 5
+function sum (limit) {
+    for (i = 0; i <= limit; i++) {
+        if (i % 5 === 0 && i % 3 === 0) {
+            return (i);
         }
     }
 }
 
-showProperties (movie);
+console.log(sum (10)); 
+
+
+// EXERCISE - String Properties
+// const movie = {
+//     title: 'a',
+//     releaseYear: 2018,
+//     rating : 10,
+//     director : 'b'
+// }
+
+// function showProperties (obj) {
+//     for (let key in obj) {
+//         if (typeof obj[key] === 'string') {
+//             console.log (key);
+//         }
+//     }
+// }
+
+// showProperties (movie);
 
 
 
