@@ -15,6 +15,13 @@ for (let key in person) {
     console.log(person[key])
 }
 
+// Using the For...in loop to iterate over an array (not a best use case)
+const colors = ['red', 'green', 'blue'];
+
+for (let index in colors) {
+    console.log (index);
+}
+
 
 // EXERCISE 4 - Function to show stars
 // function showStars (rows) {
