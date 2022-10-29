@@ -1,13 +1,15 @@
 // EXERCISES: Sum of multiples of 3 and 5
 function sum (limit) {
+    let sum = 0;
     for (i = 0; i <= limit; i++) {
-        if (i % 5 === 0 && i % 3 === 0) {
-            return (i);
+        if (i % 5 === 0 || i % 3 === 0) {
+            sum = i + sum
         }
     }
+    console.log(sum)
 }
 
-console.log(sum (10)); 
+sum (10); 
 
 
 // EXERCISE - String Properties
