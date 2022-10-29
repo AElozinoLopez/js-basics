@@ -1,6 +1,6 @@
 // EXERCISE - Even and Odd Numbers Exercise
 function showNumbers (limit) {
-    for (i = 0; i <= 10; i++) {
+    for (i = 0; i <= limit; i++) {
         if (i % 2 === 0) {
             console.log(i, " Even");
         } else {
@@ -10,7 +10,7 @@ function showNumbers (limit) {
     }
 }
 
-showNumbers();
+showNumbers(20);
 
 
 // Break and Continue
