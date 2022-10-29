@@ -1,17 +1,30 @@
+// EXERCISE - Count Truthy
+function countTruthy (arrayOfValues) {
+    let count = 0;
+
+    for (let i = 0; i < arrayOfValues.length; i++) {
+        if (arrayOfValues[i]) {
+            count = count + 1
+        }
+    }
+    return count;
+}
+console.log(countTruthy([1, null, 2, 0]))
+
 // EXERCISE - Even and Odd Numbers Exercise
-function showNumbers (limit) {
-    for (i = 0; i <= limit; i++) {
-        if (i % 2 === 0) 
-            console.log(i, " Even");
-         else 
-            console.log(i, "Odd ");
+// function showNumbers (limit) {
+//     for (i = 0; i <= limit; i++) {
+//         if (i % 2 === 0) 
+//             console.log(i, " Even");
+//          else 
+//             console.log(i, "Odd ");
         
 
                
-    }
-}
+//     }
+// }
 
-showNumbers(20);
+// showNumbers(20);
 
 
 // Break and Continue
