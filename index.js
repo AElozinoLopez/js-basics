@@ -24,7 +24,7 @@ for (let index in colors) {
 
 // To iterate over the values of the array 
 for (let index in colors) {
-    console.log(colors[index]);
+    console.log(index, colors[index]);
 }
 
 // EXERCISE 4 - Function to show stars
