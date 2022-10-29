@@ -1,12 +1,22 @@
-// Break and Continue
-let i = 0;
-while (i <= 10) {
-    if (i === 5) {
-        break;
+// EXERCISE - Even and Odd Numbers Exercise
+function showNumbers (limit) {
+    for (i = 0; i <= 10; i++) {
+        console.log(i)
     }
-    console.log(i);
-    i++
 }
+
+showNumbers();
+
+
+// Break and Continue
+// let i = 0;
+// while (i <= 10) {
+//     if (i === 5) {
+//         break;
+//     }
+//     console.log(i);
+//     i++
+// }
 
 
 
