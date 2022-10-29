@@ -1,18 +1,31 @@
-// EXERCISE 4 - Function to show stars
-function showStars (rows) {
-    let char = '';
-    for ( i = 1; i <= rows; i++) {
-        
-        for ( j = 0; j < i; j++) {
-            char = char + "*"            
-        }
-        char = char + "\n"        
-    }
+// For...in loop (especially used to iterate ove an object)
 
-    console.log(char)
+const person {
+    name : 'ElozinoLopez',
+    age : 30,
+    degree : true;
 }
 
-showStars(4);
+for (let key in person) {
+    console.log (key);
+}
+
+
+// EXERCISE 4 - Function to show stars
+// function showStars (rows) {
+//     let char = '';
+//     for ( i = 1; i <= rows; i++) {
+        
+//         for ( j = 0; j < i; j++) {
+//             char = char + "*"            
+//         }
+//         char = char + "\n"        
+//     }
+
+//     console.log(char)
+// }
+
+// showStars(4);
 
 
 // EXERCISE 4 - Function to show stars  (Another method)
