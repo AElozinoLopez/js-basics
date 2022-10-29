@@ -1,13 +1,13 @@
 // For...in loop (especially used to iterate ove an object)
 
-const person {
+const person = {
     name : 'ElozinoLopez',
     age : 30,
-    degree : true;
+    degree : true,
 }
 
 for (let key in person) {
-    console.log (key);
+    console.log (key)
 }
 
 
