@@ -2,9 +2,9 @@
 function showNumbers (limit) {
     for (i = 0; i <= 10; i++) {
         if (i % 2 === 0) {
-            console.log("Even ", i);
+            console.log(i, " Even");
         } else {
-            console.log("Odd ", i);
+            console.log(i, "Odd ");
         }
         
     }
