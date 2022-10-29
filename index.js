@@ -1,31 +1,40 @@
+// For...of loop
+const colors = ['red', 'green', 'blue']
+
+for (let color of colors) {
+    console.log(color)
+}
+
+
+
 // For...in loop (especially used to iterate ove an object)
 
-const person = {
-    name : 'ElozinoLopez',
-    age : 30,
-    degree : true,
-}
+// const person = {
+//     name : 'ElozinoLopez',
+//     age : 30,
+//     degree : true,
+// }
 
 // for (let key in person) {
 //     console.log (key)
 // }
 
 // To access the object values
-for (let key in person) {
-    console.log(person[key])
-}
+// for (let key in person) {
+//     console.log(person[key])
+// }
 
 // Using the For...in loop to iterate over an array (not a best use case)
-const colors = ['red', 'green', 'blue'];
+// const colors = ['red', 'green', 'blue'];
 
-for (let index in colors) {
-    console.log (index);
-}
+// for (let index in colors) {
+//     console.log (index);
+// }
 
-// To iterate over the values of the array 
-for (let index in colors) {
-    console.log(index, colors[index]);
-}
+// // To iterate over the values of the array 
+// for (let index in colors) {
+//     console.log(index, colors[index]);
+// }
 
 // EXERCISE 4 - Function to show stars
 // function showStars (rows) {
