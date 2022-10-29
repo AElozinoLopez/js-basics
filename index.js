@@ -1,15 +1,29 @@
 // EXERCISE - Count Truthy
-function countTruthy (arrayOfValues) {
-    let count = 0;
+// Using the For loop
+// function countTruthy (arrayOfValues) {
+//     let count = 0;
 
-    for (let i = 0; i < arrayOfValues.length; i++) {
-        if (arrayOfValues[i]) {
+//     for (let i = 0; i < arrayOfValues.length; i++) {
+//         if (arrayOfValues[i]) {
+//             count = count + 1
+//         }
+//     }
+//     return count;
+// }
+// console.log(countTruthy([1, null, 2, 0]))
+
+// Using the For...of loop
+function countTruthy (arrayOfValues) {
+    for (let value of arrayOfValues) {
+        if (value) {
             count = count + 1
         }
     }
     return count;
 }
+
 console.log(countTruthy([1, null, 2, 0]))
+
 
 // EXERCISE - Even and Odd Numbers Exercise
 // function showNumbers (limit) {
