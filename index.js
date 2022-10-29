@@ -3,18 +3,18 @@ const movie = {
     title: 'a',
     releaseYear: 2018,
     rating : 10,
-    director : 'Raphael'
+    director : 'b'
 }
 
 function showProperties (obj) {
-    for (let obj in movie) {
-        if (typeof obj === string) {
-            console.log (movie[obj])
+    for (let index in obj) {
+        if (typeof obj[index] === 'string') {
+            console.log (index);
         }
     }
 }
 
-showProperties (obj[movie])
+showProperties (movie);
 
 
 
