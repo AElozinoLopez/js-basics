@@ -1,9 +1,18 @@
-// For...of loop
-const colors = ['red', 'green', 'blue']
-
-for (let rice of colors) {
-    console.log(rice)
+// Break and Continue
+let i = 0;
+while (i <= 10) {
+    console.log(i);
+    i++
 }
+
+
+
+// For...of loop
+// const colors = ['red', 'green', 'blue']
+
+// for (let rice of colors) {
+//     console.log(rice)
+// }
 
 
 
