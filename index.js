@@ -1,8 +1,8 @@
 // For...of loop
 const colors = ['red', 'green', 'blue']
 
-for (let color of colors) {
-    console.log(color)
+for (let rice of colors) {
+    console.log(rice)
 }
 
 
