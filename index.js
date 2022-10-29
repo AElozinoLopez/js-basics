@@ -14,6 +14,7 @@
 
 // Using the For...of loop
 function countTruthy (arrayOfValues) {
+    let count = 0;
     for (let value of arrayOfValues) {
         if (value) {
             count = count + 1
