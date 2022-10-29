@@ -6,8 +6,13 @@ const person = {
     degree : true,
 }
 
+// for (let key in person) {
+//     console.log (key)
+// }
+
+// To access the object values
 for (let key in person) {
-    console.log (key)
+    console.log(person[key])
 }
 
 
