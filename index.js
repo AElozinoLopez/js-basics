@@ -1,3 +1,23 @@
+// EXERCISE - String Properties
+const movie = {
+    title: 'a',
+    releaseYear: 2018,
+    rating : 10,
+    director : 'Raphael'
+}
+
+function showProperties (obj) {
+    for (let obj in movie) {
+        if (typeof obj === string) {
+            console.log (movie[obj])
+        }
+    }
+}
+
+showProperties (obj[movie])
+
+
+
 // EXERCISE - Count Truthy
 // Using the For loop
 // function countTruthy (arrayOfValues) {
@@ -13,17 +33,15 @@
 // console.log(countTruthy([1, null, 2, 0]))
 
 // Using the For...of loop
-function countTruthy (arrayOfValues) {
-    let count = 0;
-    for (let value of arrayOfValues) {
-        if (value) {
-            count = count + 1
-        }
-    }
-    return count;
-}
+// function countTruthy (arrayOfValues) {
+//     let count = 0;
+//     for (let value of arrayOfValues) {
+//         if (value)  count = count + 1
+//     }
+//     return count;
+// }
 
-console.log(countTruthy([1, null, 2, 0]))
+// console.log(countTruthy([1, null, 2, 0]))
 
 
 // EXERCISE - Even and Odd Numbers Exercise
