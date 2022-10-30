@@ -55,8 +55,27 @@ function createCircle() {
     return circle;
 }
 
-const circle = createCircle()
+const circle = createCircle();
 
+console.log(circle);
+
+// you can simply return the object literal and it should still work. as shown below
+// function createCircle() {
+//     return  {
+//         radius: 1,
+//         location: {
+//             x: 1,
+//             y: 1
+//         },
+//         isVisible: false,
+//         draw: function() {
+//             console.log ('Draw')
+//         }
+//     }
+    
+// }
+
+// const circle = createCircle()
 
 
 
