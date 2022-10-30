@@ -60,13 +60,34 @@
 // console.log(circle);
 
 // you can simply return the object literal and it should still work. as shown below
-function createCircle() {
-    return  {
-        radius: 1,
-        location: {
-            x: 1,
-            y: 1
-        },
+// function createCircle() {
+//     return  {              // returning the object literal instead of declaring a constant object
+//         radius: 1,
+//         location: {
+//             x: 1,
+//             y: 1
+//         },
+//         isVisible: false,
+//         draw: function() {
+//             console.log ('Draw')
+//         }
+//     }
+    
+// }
+
+// const circle = createCircle()    output will be same as for all other constructor function created
+// const circle2 = createCircle()   output will be same as above
+// const circle3 = createCircle()   output will be same as above
+// console.log(circle);
+
+// we can declare more constants and have the result of the circle function.
+// but the result will all be the same because the values were hardcoded . 
+// to ensure we have different values, we have to pass the values as parameters. eg
+
+function createCircle(radius, location) {
+    return  {              
+        radius: radius,
+        location: location,
         isVisible: false,
         draw: function() {
             console.log ('Draw')
@@ -75,9 +96,14 @@ function createCircle() {
     
 }
 
-const circle = createCircle()
+// NOW the output of all constructor function created will be different 
+const circle = createCircle(2)   
+const circle2 = createCircle(5)  
+const circle3 = createCircle(8)    
 
-console.log(circle);
+
+
+
 
 
 
