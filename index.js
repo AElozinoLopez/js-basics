@@ -1,67 +1,85 @@
 // OBJECTS 
 // Example 1
-const circle = {
-    radius: 1;
-    location: {
-        x: 1,
-        y: 1
-    },
-    isVisible: false,
-    draw: function() {
-        console.log ('Draw')
-    }
-}
+// const circle = {
+//     radius: 1;
+//     location: {
+//         x: 1,
+//         y: 1
+//     },
+//     isVisible: false,
+//     draw: function() {
+//         console.log ('Draw')
+//     }
+// }
 
 // Duplicating the method
 // First Object
-const circle = {
-    radius: 1;
-    location: {
-        x: 1,
-        y: 1
-    },
-    isVisible: false,
-    draw: function() {
-        console.log ('Draw')
-    }
-}
+// const circle = {
+//     radius: 1;
+//     location: {
+//         x: 1,
+//         y: 1
+//     },
+//     isVisible: false,
+//     draw: function() {
+//         console.log ('Draw')
+//     }
+// }
 
 // Second object
-const circle = {
-    radius: 2;
-    location: {
-        x: 5,
-        y: 7
-    },
-    isVisible: true,
-    draw: function() {
-        console.log ('Draw')
-    }
-}
+// const circle2 = {
+//     radius: 2;
+//     location: {
+//         x: 5,
+//         y: 7
+//     },
+//     isVisible: true,
+//     draw: function() {
+//         console.log ('Draw')
+//     }
+// }
 
-
-
-
-// EXERCISES: Prime Numbers AASIGNMENT SOLUTION
-
-function showPrime (limit) {
-    for (let i = 0; i <= limit; i++) {
-        let num = 0;
-    
-        for (let j = 2; j < i; j++) {
-            if (i % j === 0) {
-                num = 1;
-                break;
-            }
+// factory function 
+function createCircle() {
+    const circle = {
+        radius: 1,
+        location: {
+            x: 1,
+            y: 1
+        },
+        isVisible: false,
+        draw: function() {
+            console.log ('Draw')
         }
-    
-        if (i > 1 && num === 0) 
-            console.log(i);
-    
     }
+    return circle;
 }
 
-showPrime (20);
+const circle = createCircle()
+
+
+
+
+// EXERCISES: Prime Numbers ASSIGNMENT SOLUTION
+
+// function showPrime (limit) {
+//     for (let i = 0; i <= limit; i++) {
+//         let num = 0;
+    
+//         for (let j = 2; j < i; j++) {
+//             if (i % j === 0) {
+//                 num = 1;
+//                 break;
+//             }
+//         }
+    
+//         if (i > 1 && num === 0) 
+//             console.log(i);
+    
+//     }
+// }
+
+// showPrime (20);
 
 
 
