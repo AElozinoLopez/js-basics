@@ -145,16 +145,35 @@
 
 // Constructor Function
 // Syntax
-function Circle(radius) {
-    this.radius = radius,
-    this.draw = function () {
-        console.log('draw')
-    }
-    return this;
-}
+// function Circle(radius) {
+//     this.radius = radius,
+//     this.draw = function () {
+//         console.log('draw')
+//     }
+    // return this;  this line is not needed when using constructor function because the js engine does it for you
+// }
 
-const circle = new Circle(5);
-console.log(circle)
+// to call the function
+// new Circle()
+
+// or we can declare a variable and assign it to the function
+// const circle = new Circle(5);
+// console.log(circle)
+
+
+// Dynamic Nature of Objects (Adding and deleting members of an object)
+const circle = {
+    radius: 1
+}
+// to add more properties
+circle.color = 'yellow';
+circle.draw = function (){}
+console.log(circle);
+
+// to delete 
+delete circle.radius;
+console.log(circle);
+
 // EXERCISES: Prime Numbers ASSIGNMENT SOLUTION  5/10/2022
 
 // function showPrime (limit) {
