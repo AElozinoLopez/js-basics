@@ -2,12 +2,12 @@
 function showPrime (limit) {
     for (i = 0; i <= limit; i++) {
         if (i % 2 !== 0) 
-            return (i);
+            console.log (i);
         }
     
 }
 
-console.log(showPrime(10));
+showPrime(20);
 
 // EXERCISES: Sum of multiples of 3 and 5
 // function sum (limit) {
