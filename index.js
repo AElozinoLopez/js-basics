@@ -84,30 +84,51 @@
 // but the result will all be the same because the values were hardcoded . 
 // to ensure we have different values, we have to pass the values as parameters. eg
 
-function createCircle(radius, location) {
+// function createCircle(radius, location) {
+//     return  {              
+//         radius: radius,
+//         location: location,
+//         isVisible: false,
+//         draw: function() {
+//             console.log ('Draw')
+//         }
+//     }
+    
+// }
+
+// NOW the output of all constructor function created will be different values for radius and location.
+// For location we pass in an object
+// const circle = createCircle(2 , {x: 3, y: 5})   
+// const circle2 = createCircle(5, {x: 7, y: 9})  
+// const circle3 = createCircle(8, {x: 1, y: 2})    
+
+
+// console.log(circle)
+// console.log(circle2)
+
+// Making the factory function simpler
+// function createCircle(radius) {
+//     return  {              
+//         radius: radius,
+//         draw: function() {
+//             console.log ('Draw')
+//         }
+//     }
+    
+// }
+
+//  if the value and the key have the same value, modern javascript says to remove the value and add the key. a below
+function createCircle(radius) {
     return  {              
-        radius: radius,
-        location: location,
-        isVisible: false,
+        radius,
         draw: function() {
             console.log ('Draw')
         }
     }
     
 }
-
-// NOW the output of all constructor function created will be different values for radius and location.
-// For location we pass in an object
-const circle = createCircle(2 , {x: 3, y: 5})   
-const circle2 = createCircle(5, {x: 7, y: 9})  
-const circle3 = createCircle(8, {x: 1, y: 2})    
-
-
-console.log(circle)
-console.log(circle2)
-
-
-
+// to confirm that this works, we declare a variable and pass an argument
+let circle = createCircle(5)
 
 // EXERCISES: Prime Numbers ASSIGNMENT SOLUTION
 
