@@ -10,20 +10,18 @@
 // looping from lowerNumber to higherNumber
 function showPrime (limit) {
     for (let i = 0; i <= limit; i++) {
-        let flag = 0;
+        let num = 0;
     
-        // looping through 2 to user input number
         for (let j = 2; j < i; j++) {
-            if (i % j == 0) {
-                flag = 1;
+            if (i % j === 0) {
+                num = 1;
                 break;
             }
         }
     
-        // if number greater than 1 and not divisible by other numbers
-        if (i > 1 && flag == 0) {
+        if (i > 1 && num === 0) 
             console.log(i);
-        }
+    
     }
 }
 
