@@ -96,13 +96,15 @@ function createCircle(radius, location) {
     
 }
 
-// NOW the output of all constructor function created will be different 
-const circle = createCircle(2)   
-const circle2 = createCircle(5)  
-const circle3 = createCircle(8)    
+// NOW the output of all constructor function created will be different values for radius and location.
+// For location we pass in an object
+const circle = createCircle(2 , {x: 3, y: 5})   
+const circle2 = createCircle(5, {x: 7, y: 9})  
+const circle3 = createCircle(8, {x: 1, y: 2})    
 
 
-
+console.log(circle)
+console.log(circle2)
 
 
 
