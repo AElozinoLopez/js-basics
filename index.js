@@ -153,7 +153,8 @@ function Circle(radius) {
     return this;
 }
 
-
+const circle = new Circle(5);
+console.log(circle)
 // EXERCISES: Prime Numbers ASSIGNMENT SOLUTION  5/10/2022
 
 // function showPrime (limit) {
