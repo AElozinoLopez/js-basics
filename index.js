@@ -130,6 +130,20 @@ function createCircle(radius) {
 // to confirm that this works, we declare a variable and pass an argument
 let circle = createCircle(5)
 
+// we can also reduce the syntax for the draw function
+function createCircle(radius) {
+    return  {              
+        radius,
+        draw() {
+            console.log ('Draw')
+        }
+    }
+    
+}
+
+
+
+
 // EXERCISES: Prime Numbers ASSIGNMENT SOLUTION
 
 // function showPrime (limit) {
