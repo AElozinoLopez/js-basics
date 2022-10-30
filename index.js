@@ -96,7 +96,7 @@
     
 // }
 
-// NOW the output of all constructor function created will be different values for radius and location.
+// NOW the output of all factory function created will be different values for radius and location.
 // For location we pass in an object
 // const circle = createCircle(2 , {x: 3, y: 5})   
 // const circle2 = createCircle(5, {x: 7, y: 9})  
@@ -118,33 +118,43 @@
 // }
 
 //  if the value and the key have the same value, modern javascript says to remove the value and add the key. a below
-function createCircle(radius) {
-    return  {              
-        radius,
-        draw: function() {
-            console.log ('Draw')
-        }
-    }
+// function createCircle(radius) {
+//     return  {              
+//         radius,
+//         draw: function() {
+//             console.log ('Draw')
+//         }
+//     }
     
-}
+// }
 // to confirm that this works, we declare a variable and pass an argument
-let circle = createCircle(5)
+// let circle = createCircle(5)
 
-// we can also reduce the syntax for the draw function
-function createCircle(radius) {
-    return  {              
-        radius,
-        draw() {
-            console.log ('Draw')
-        }
-    }
+// we can also reduce the syntax for the draw function. This is the valid syntax for Factory function
+// function createCircle(radius) {
+//     return  {              
+//         radius,
+//         draw() {
+//             console.log ('Draw')
+//         }
+//     }
     
+// }
+
+// const circle = createCircle(44)
+
+// Constructor Function
+// Syntax
+function Circle(radius) {
+    this.radius = radius,
+    this.draw = function () {
+        console.log('draw')
+    }
+    return this;
 }
 
 
-
-
-// EXERCISES: Prime Numbers ASSIGNMENT SOLUTION
+// EXERCISES: Prime Numbers ASSIGNMENT SOLUTION  5/10/2022
 
 // function showPrime (limit) {
 //     for (let i = 0; i <= limit; i++) {
