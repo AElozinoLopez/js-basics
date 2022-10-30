@@ -1,15 +1,26 @@
-// EXERCISES: Sum of multiples of 3 and 5
-function sum (limit) {
-    let sum = 0;
+// EXERCISES: Prime Numbers
+function showPrime (limit) {
     for (i = 0; i <= limit; i++) {
-        if (i % 5 === 0 || i % 3 === 0) {
-            sum = i + sum
+        if (i % 2 !== 0) 
+            return (i);
         }
-    }
-    console.log(sum)
+    
 }
 
-sum (10); 
+console.log(showPrime(10));
+
+// EXERCISES: Sum of multiples of 3 and 5
+// function sum (limit) {
+//     let sum = 0;
+//     for (i = 0; i <= limit; i++) {
+//         if (i % 5 === 0 || i % 3 === 0) {
+//             sum = i + sum
+//         }
+//     }
+//     console.log(sum)
+// }
+
+// sum (10); 
 
 
 // EXERCISE - String Properties
