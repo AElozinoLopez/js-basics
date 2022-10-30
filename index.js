@@ -12,6 +12,34 @@ const circle = {
     }
 }
 
+// Duplicating the method
+// First Object
+const circle = {
+    radius: 1;
+    location: {
+        x: 1,
+        y: 1
+    },
+    isVisible: false,
+    draw: function() {
+        console.log ('Draw')
+    }
+}
+
+// Second object
+const circle = {
+    radius: 2;
+    location: {
+        x: 5,
+        y: 7
+    },
+    isVisible: true,
+    draw: function() {
+        console.log ('Draw')
+    }
+}
+
+
 
 
 // EXERCISES: Prime Numbers AASIGNMENT SOLUTION
