@@ -1,5 +1,20 @@
+// OBJECTS 
+// Example 1
+const circle = {
+    radius: 1;
+    location: {
+        x: 1,
+        y: 1
+    },
+    isVisible: false,
+    draw: function() {
+        console.log ('Draw')
+    }
+}
 
-// EXERCISES: Prime Numbers
+
+
+// EXERCISES: Prime Numbers AASIGNMENT SOLUTION
 
 function showPrime (limit) {
     for (let i = 0; i <= limit; i++) {
