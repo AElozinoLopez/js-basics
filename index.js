@@ -213,7 +213,7 @@ function increase(obj) {
     obj.number++
 }
 increase(obj);
-console.log(obj.number);
+console.log(obj);
 
 // ---------------------------------------------------------------------------
 
