@@ -162,17 +162,30 @@
 
 
 // Dynamic Nature of Objects (Adding and deleting members of an object)
-const circle = {
-    radius: 1
-}
-// to add more properties
-circle.color = 'yellow';
-circle.draw = function (){}
-console.log(circle);
+// const circle = {
+//     radius: 1
+// }
+// // to add more properties
+// circle.color = 'yellow';
+// circle.draw = function (){}
+// console.log(circle);
 
-// to delete 
-delete circle.radius;
-console.log(circle);
+// // to delete 
+// delete circle.radius;
+// console.log(circle);
+
+
+// Value types vs Reference types
+// The value type variable are independent of each other and return their seperate values
+// Value types are number, string, boolean, undefined, null, and symbol (this is new in ES6)
+// Examples
+let x = 10;
+let y = x;
+x = 20;
+console.log (x);
+
+
+// ---------------------------------------------------------------------------
 
 // EXERCISES: Prime Numbers ASSIGNMENT SOLUTION  5/10/2022
 
