@@ -178,14 +178,23 @@
 // Value types vs Reference types
 // The value type variable are independent of each other and return their seperate values
 // Value types are number, string, boolean, undefined, null, and symbol (this is new in ES6)
-// Examples
+// Example 1
 let x = 10;
 let y = x;
 x = 20;
-console.log (x);
+console.log (x);  
 console.log (y);
 
+// Example 2
+const number = 10;
+function sum (number) {
+    number++;
+    // in here number = 11
+}
 
+sum (10);
+console.log(number)
+// out here, number is still = 10
 
 // ---------------------------------------------------------------------------
 
