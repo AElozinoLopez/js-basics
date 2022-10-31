@@ -176,6 +176,8 @@
 
 
 // Value types vs Reference types
+
+// Value Types
 // The value type variable are independent of each other and return their seperate values
 // Value types are number, string, boolean, undefined, null, and symbol (this is new in ES6)
 // Example 1
@@ -195,6 +197,23 @@ function sum (number) {
 sum (10);
 console.log(number)
 // out here, number is still = 10
+
+// Reference Types
+// These include functions, objects, and arrays. Now, since functions are objects and arrays are also objects
+// we can say the reference types is also called objects
+
+// For object types the values returned is the same because when you assign an object to a variable,
+// the object is stored somewhere in memory and it is the address of that memory location that is passed
+// on to the variable
+
+// Example
+const obj = {number: 10};
+
+function increase(obj) {
+    obj.number++
+}
+increase(obj);
+console.log(obj.number);
 
 // ---------------------------------------------------------------------------
 
