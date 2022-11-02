@@ -222,15 +222,24 @@
 // to iterate over the object to return its keys. To return the values, use Object.values method.
 
 // This example will return the keys of the object
+// const circle = {
+//     radius: 1,
+//     draw() {
+//         console.log("Draw");
+//     }
+// }
+// console.log (Object.keys(circle));
+// for (let key of Object.keys(circle))
+// console.log(key, circle[key]);
+
+// This example will return the value
 const circle = {
     radius: 1,
     draw() {
-        console.log("Draw");
+        console.log ('Draw');
     }
 }
-console.log (Object.keys(circle));
-// for (let key of Object.keys(circle))
-// console.log(key, circle[key]);
+console.log (Object.values);
 
 // ---------------------------------------------------------------------------
 
