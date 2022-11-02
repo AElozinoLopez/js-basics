@@ -245,13 +245,23 @@
 
 
 // Another way to iterate over an object is with the constructor function called Object.entries
+// const circle = {
+//     radius: 5,
+//     draw() {
+//         console.log('Draw')
+//     }
+// }
+// for (let key of Object.keys(circle)) {
+//     console.log(key);
+// }
+//  The Object.entries method was used below
 const circle = {
     radius: 5,
     draw() {
         console.log('Draw')
     }
 }
-for (let key of Object.keys(circle)) {
+for (let key of Object.entries(circle)) {
     console.log(key);
 }
 
