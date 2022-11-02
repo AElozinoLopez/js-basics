@@ -233,15 +233,27 @@
 // console.log(key, circle[key]);
 
 // This example will return the value
+// const circle = {
+//     radius: 1,
+//     draw() {
+//         console.log ('Draw');
+//     }
+// }
+// console.log (Object.values(circle));    <--- this line not needed if we are to print the values
+// for (let key in Object.values(circle))
+// console.log (key);
+
+
+// Another way to iterate over an object is with the constructor function called Object.entries
 const circle = {
-    radius: 1,
+    radius: 5,
     draw() {
-        console.log ('Draw');
+        console.log('Draw')
     }
 }
-// console.log (Object.values(circle));    <--- this line not needed if we are to print the values
-for (let key in Object.values(circle))
-console.log (key);
+for (let key of Object.keys(circle)) {
+    console.log(key);
+}
 
 // ---------------------------------------------------------------------------
 
