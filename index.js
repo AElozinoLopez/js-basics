@@ -181,21 +181,21 @@
 // The value type variable are independent of each other and return their seperate values
 // Value types are number, string, boolean, undefined, null, and symbol (this is new in ES6)
 // Example 1
-let x = 10;
-let y = x;
-x = 20;
-console.log (x);  
-console.log (y);
+// let x = 10;
+// let y = x;
+// x = 20;
+// console.log (x);  
+// console.log (y);
 
 // Example 2
-const number = 10;
-function sum (number) {
-    number++;
+// const number = 10;
+// function sum (number) {
+//     number++;
     // in here number = 11
-}
+// }
 
-sum (10);
-console.log(number)
+// sum (10);
+// console.log(number)
 // out here, number is still = 10
 
 // Reference Types
@@ -207,13 +207,29 @@ console.log(number)
 // on to the variable
 
 // Example
-const obj = {number: 10};
+// const obj = {number: 10};
 
-function increase(obj) {
-    obj.number++
+// function increase(obj) {
+//     obj.number++
+// }
+// increase(obj);
+// console.log(obj);
+
+
+// Enumerating Properties of an Object
+// For...of loop cannot be used on an object because objects are not iterable. Arrays are.
+// To loop over an object, we make use of the Object.keys method (which is a constructor function) to
+// to iterate over the object to return its keys. To return the values, use Object.values method.
+
+const circle = {
+    radius: 1,
+    draw() {
+        console.log("Draw");
+    }
 }
-increase(obj);
-console.log(obj);
+// console.log (Object.keys(circle));
+for (let key of Object.keys(circle))
+console.log(key, circle[key]);
 
 // ---------------------------------------------------------------------------
 
