@@ -228,7 +228,7 @@
 //         console.log("Draw");
 //     }
 // }
-// console.log (Object.keys(circle));
+// console.log (Object.keys(circle));     <---this line not needed if you are using the next two lines
 // for (let key of Object.keys(circle))
 // console.log(key, circle[key]);
 
@@ -239,7 +239,9 @@ const circle = {
         console.log ('Draw');
     }
 }
-console.log (Object.values(circle));
+// console.log (Object.values(circle));    <--- this line not needed if we are to print the values
+for (let key in Object.values(circle))
+console.log (key);
 
 // ---------------------------------------------------------------------------
 
