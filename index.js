@@ -239,7 +239,7 @@ const circle = {
         console.log ('Draw');
     }
 }
-console.log (Object.values);
+console.log (Object.values(circle));
 
 // ---------------------------------------------------------------------------
 
