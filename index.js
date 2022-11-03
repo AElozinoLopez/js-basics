@@ -289,7 +289,8 @@
 
 
 // CLONING AN OBJECT
-// This is the process of coping the properties of an object into another object
+// This is the process of coping the properties of an object into another object. 
+// One way to do this is to use the for in loop (old method)
 // Example
 const circle = {
     radius: 5,
@@ -303,6 +304,9 @@ const another = {};
 for (let key in circle) {
     another[key] = circle[key];
 }
+console.log (another);
+
+// A more modern way of achieving cloning is by using the Object.assign method
 
 
 // ---------------------------------------------------------------------------
