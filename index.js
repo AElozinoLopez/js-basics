@@ -271,22 +271,38 @@
 // looking at the example above,
 // if('radius' in circle) console.log('yes');
 
-const car = { 
-    make: 'Honda', 
-    model: 'Accord',
-    year: '1998'
-}
-console.log('make' in car);
+// const car = { 
+//     make: 'Honda', 
+//     model: 'Accord',
+//     year: '1998'
+// }
+// console.log('make' in car);
 // expected output: true
 
-delete car.make;
-if ('make' in car === false) {
-    car.make = 'Toyota';
-}
+// delete car.make;
+// if ('make' in car === false) {
+//     car.make = 'Toyota';
+// }
 
-console.log(car.make);
+// console.log(car.make);
 // expected output: "Suzuki"
 
+
+// CLONING AN OBJECT
+// This is the process of coping the properties of an object into another object
+// Example
+const circle = {
+    radius: 5,
+    draw() {
+        console.log('Draw')
+    }
+}
+
+const another = {};
+
+for (let key in circle) {
+    another[key] = circle[key];
+}
 
 
 // ---------------------------------------------------------------------------
