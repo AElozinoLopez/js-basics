@@ -279,6 +279,13 @@ const car = {
 console.log('make' in car);
 // expected output: true
 
+delete car.make;
+if ('make' in car === false) {
+    car.make = 'Toyota';
+}
+
+console.log(car.make);
+// expected output: "Suzuki"
 
 
 
