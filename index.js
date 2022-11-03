@@ -265,6 +265,12 @@ for (let key of Object.entries(circle)) {
     console.log(key);
 }
 
+
+// The in operator
+// This is used to check if a given property exist in a given object.
+// looking at the example above,
+if('radius' in circle) console.log('yes');
+
 // ---------------------------------------------------------------------------
 
 // EXERCISES: Prime Numbers ASSIGNMENT SOLUTION  5/10/2022
