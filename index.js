@@ -292,21 +292,30 @@
 // This is the process of coping the properties of an object into another object. 
 // One way to do this is to use the for in loop (old method)
 // Example
+// const circle = {
+//     radius: 5,
+//     draw() {
+//         console.log('Draw')
+//     }
+// }
+
+// const another = {};
+
+// for (let key in circle) {
+//     another[key] = circle[key];
+// }
+// console.log (another);
+
+// A more modern way of achieving cloning is by using the Object.assign method. 
+// to this, we pass in the first argument (a target object) which can be an empty object, or an existing object.
 const circle = {
     radius: 5,
     draw() {
-        console.log('Draw')
+        console.log('Draw');
     }
 }
-
-const another = {};
-
-for (let key in circle) {
-    another[key] = circle[key];
-}
-console.log (another);
-
-// A more modern way of achieving cloning is by using the Object.assign method
+const another = Object.assign({}, circle);
+console.log('The Another object = ', another);
 
 
 // ---------------------------------------------------------------------------
