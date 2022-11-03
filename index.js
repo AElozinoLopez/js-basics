@@ -306,16 +306,30 @@
 // }
 // console.log (another);
 
+// Object.assign METHOD
 // A more modern way of achieving cloning is by using the Object.assign method. 
 // to this, we pass in the first argument (a target object) which can be an empty object, or an existing object.
+// const circle = {
+//     radius: 5,
+//     draw() {
+//         console.log('Draw');
+//     }
+// }
+// const another = Object.assign({}, circle);
+// console.log('The Another object = ', another);
+// NB: the new array musn't be an empty array. the assign method just adds the new to the already existing.
+
+// SPREAD OPERATOR
+// This is the latest way to clone an object
 const circle = {
     radius: 5,
     draw() {
         console.log('Draw');
     }
 }
-const another = Object.assign({}, circle);
-console.log('The Another object = ', another);
+
+const another = {...circle};
+console.log(another);
 
 
 // ---------------------------------------------------------------------------
