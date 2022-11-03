@@ -255,21 +255,32 @@
 //     console.log(key);
 // }
 //  The Object.entries method was used below
-const circle = {
-    radius: 5,
-    draw() {
-        console.log('Draw')
-    }
-}
-for (let key of Object.entries(circle)) {
-    console.log(key);
-}
+// const circle = {
+//     radius: 5,
+//     draw() {
+//         console.log('Draw')
+//     }
+// }
+// for (let key of Object.entries(circle)) {
+//     console.log(key);
+// }
 
 
 // The in operator
 // This is used to check if a given property exist in a given object.
 // looking at the example above,
-if('radius' in circle) console.log('yes');
+// if('radius' in circle) console.log('yes');
+
+const car = { 
+    make: 'Honda', 
+    model: 'Accord',
+    year: '1998'
+}
+console.log('make' in car);
+// expected output: true
+
+
+
 
 // ---------------------------------------------------------------------------
 
